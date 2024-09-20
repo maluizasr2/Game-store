@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #5700CB;
+    padding: 3px;
+
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 10px;
+    justify-content: center;
+    img{
+       
+
+        height: 40px;
+    }
+}
+
+.bemvindo{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.banner{
+    img{
+        width: 100%;
+    }
+}
+
+.somos{
+        text-align: center;
+        h2{
+            font-size: 23px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        p{
+            margin: auto 10%;
+            line-height: 2;
+            text-align: justify;
+            font-size: 16px;
+        }
+        span{
+            background-color: #9153e3;
+            padding: 10px;
+        }
+}
+
+.jogos{
+    h2{
+        text-align: center;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    p{
+        margin: auto 10%;
+        line-height: 2;
+    }
+}
+
+.tabela{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 10px;
+    table{
+        width: 80%;
+        font-size: 15px;
+    }
+    th{
+        padding: 5px 5px;
+        text-align: center;
+        background-color: #5A5A5A;
+        font-weight: 550;
+        font-size: 18px;
+    }
+}
+
+tbody tr:nth-of-type(even){
+    background-color: #5700cb;
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: #9254e3;
+}
+
+tr{
+    font-weight: 100;
+    font-size: 17px;
+    text-align: justify;
+    margin: 5px 10px;
+    height: 33px;
+
+}
+
+.final{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5700cb;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+
